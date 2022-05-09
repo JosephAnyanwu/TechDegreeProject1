@@ -66,6 +66,9 @@ header {
   background: url('images/Mauritius_beach.png') no-repeat top center ;
   background-size: cover;
 }
+.blogs-header{
+  background: url('https://placeimg.com/480/480/tech');
+}
 header {
   line-height: 1.5;
 }
@@ -74,11 +77,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(195, 100, 100);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform:rotatex(45deg) scale(1.5)
 }
 .tag {
   background-color: #efefef;
@@ -91,6 +94,11 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: yellow;
+}
+
+.location:hover{
+  background-color: aliceblue;
+  color:darkmagenta;
 }
 .card {
   margin: 30px;
@@ -106,6 +114,22 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.articles{
+  margin: 30px;
+  padding: 20px 40px 100px;
+  max-width: cover;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.posts{
+  background-color:rgb(82, 246, 246);
+  padding-top:5px;
+  border-radius: 8px
+}
 ul.skills {
   padding: 0;
   text-align: center;
